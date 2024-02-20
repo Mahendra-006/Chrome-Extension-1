@@ -1,0 +1,16 @@
+{
+    "name":"Pick your Color",
+    "description":"An Extension that allows you to pick colors from any websites",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker":"background.js"
+    },
+    "permissions":[
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "index.html"
+    }
+}
